@@ -8,7 +8,7 @@ import (
 
 func hello(w http.ResponseWriter, r *http.Request) {
 	log.Printf("INFO: %+v\n", r.Header)
-	fmt.Fprintf(w, "hello\n")
+	fmt.Fprintf(w, "just little thing every day we can make it.\n")
 }
 
 func ping(w http.ResponseWriter, r *http.Request) {

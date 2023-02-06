@@ -6,6 +6,8 @@ COPY go.mod ./
 
 COPY *.go ./
 
+COPY Makefile ./ 
+
 RUN go build -o /go-simple-server
 
 EXPOSE 8000
